@@ -172,6 +172,8 @@ footer {
     .secundario {
         display: block;
         margin: 0 3em;
+        
+        margin-top: 3em;
     }
     .principal {
         grid-template-columns:none;
@@ -191,13 +193,18 @@ footer {
     .secundario__imagem {
         width: 85%;
     }
-    .container__secundario {
-        margin-top: 5em;
-    }
     .dispositivos__titulo {
         font-size: 32px;
     }
     .footer__lista li {
         padding: 0.5em 0;
     }
+    .linha {
+        border-bottom: 2px solid var(--branco-principal);
+        margin-bottom: 2em;
+    }
+    .baixe_seus_cursos,.assine_combo {
+        height: 60vh;
+    }
+    
 }
